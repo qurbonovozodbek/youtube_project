@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Fraunces 144pt";
+    src: url("../font/Fraunces144pt-Regular.woff2") format("woff2"),
+        url("../font/Fraunces144pt-Regular.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1440px;
+    background: url(../picture/backgraund.png) no-repeat top, url(../picture/backgraund_2.png) no-repeat center;
+    margin: 0 auto;
+    padding: 56px 165px 110px 165px;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+.heading a {
+    color: var(--White, #FFF);
+font-family: 'Manrope';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.18px;
+border-bottom: 3px solid #44FFA1;
+cursor: pointer;
+}
+.heading a:hover {
+    color: #44FFA1;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero h1 {
+    width: 615px;
+    color: var(--White, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Heading L */
+font-family: "Fraunces 144pt";
+font-size: 80px;
+font-style: normal;
+font-weight: 600;
+line-height: 80px; /* 100% */
+}
+.hero span {
+    border-bottom: 3px solid #44FFA1;
+}
+.hero_btn {
+    padding: 13px 32px 16px 32px;
+    background: var(--Eucaplyptus, #44FFA1);
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    color: var(--Dark-Purple, #24053E);
+text-align: center;
+font-family: 'Manrope';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.18px;
+}
+.hero_btn:hover {
+    padding: 15px 30px 14px;
+    border: 2px solid var(--Eucaplyptus, #44FFA1);
+    background: inherit;
+    cursor: pointer;
+
+    color: #44FFA1;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin-bottom: 454px;
+}
+.cards h3 {
+    color: var(--Dark-Purple, #24053E);
+text-align: center;
+font-family: "Fraunces 144pt";
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 125% */
+margin-bottom: 28px;
+}
+.cards p {
+    width: 354px;
+    color: var(--Dark-Purple, #24053E);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Body */
+font-family: 'Manrope';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
+.card1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.number {
+    width: 56px;
+height: 56px;
+
+border-radius: 30.5px;
+border: 1px solid var(--Davys-Grey, #584D62);
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Fraunces 144pt";
+cursor: pointer;
+margin-top: 90px;
+margin-bottom: 50px;
+}
+.number:hover {
+    background-color: #44FFA1;
+    color: black;
+}
+.fuuter {
+    width: 730px;
+    padding: 64px;
+    background: url(../picture/button_backgraund.png) no-repeat right bottom, var(--Dark-Purple, #24053E);
+    margin-left: 380px;
+    position: relative;
+    margin-bottom: 121px;
+}
+.fuuter h2 {
+    color: var(--White, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Heading M */
+font-family: "Fraunces 144pt";
+font-size: 56px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; /* 114.286% */
+}
+.fuuter p {
+    width: 602px;
+    color: var(--White, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Body */
+font-family: 'Manrope';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+margin-top: 32px;
+margin-bottom: 32px;
+}
+.fuuter_btn {
+    padding: 13px 32px 16px 32px;
+    background: var(--Eucaplyptus, #44FFA1);
+
+    color: var(--Dark-Purple, #24053E);
+text-align: center;
+font-family: 'Manrope';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.18px;
+}
+
+.fuuter_btn:hover {
+    padding: 15px 30px 14px;
+    border: 2px solid var(--Eucaplyptus, #44FFA1);
+    background: inherit;
+    cursor: pointer;
+
+    color: #44FFA1;
+}
+.human {
+    position: absolute;
+    top: -173px;
+    left: -382px;
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navigation ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
